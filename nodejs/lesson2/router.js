@@ -1,11 +1,11 @@
 
-function route(handle, pathname){
+function route(handle, pathname, response){
   console.log("About to route a request for " + pathname);
 
   if(typeof handle[pathname] === 'function'){
-    handle[pathname]();
+    handle[pathname](response);
   }else{
-    handle['/error']();
+    handle['/error'](response);
   }
 }
 
