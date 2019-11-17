@@ -1,0 +1,13 @@
+{
+  "name": "fc-flow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "flow": "flow"
+  },
+  "devDependencies": {
+    "flow": "^0.2.3",
+    "flow-bin": "^0.108.0"
+  }
+}
